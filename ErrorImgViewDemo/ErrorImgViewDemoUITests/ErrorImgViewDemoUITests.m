@@ -2,7 +2,7 @@
 //  ErrorImgViewDemoUITests.m
 //  ErrorImgViewDemoUITests
 //
-//  Created by 余丽丽 on 16/1/4.
+//  Created by ocarol on 16/1/4.
 //  Copyright © 2016年 ocarol. All rights reserved.
 //
 
