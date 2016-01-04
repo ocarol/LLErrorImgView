@@ -1,6 +1,5 @@
 //
 //  ErrorImgView.h
-//  YobeeAgent
 //
 //  Created by ocarol on 16/1/4.
 //  Copyright © 2016年 ocarol. All rights reserved.

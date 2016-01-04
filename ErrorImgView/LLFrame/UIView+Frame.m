@@ -1,6 +1,5 @@
 //
 //  UIView+Frame.m
-//  LLHUD
 //
 //  Created by ocarol on 15/12/16.
 //  Copyright © 2015年 ocarol. All rights reserved.
