@@ -15,8 +15,8 @@
 		12019BEC1C3A44A200C7D039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12019BEA1C3A44A200C7D039 /* LaunchScreen.storyboard */; };
 		12019BF71C3A44A300C7D039 /* ErrorImgViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12019BF61C3A44A300C7D039 /* ErrorImgViewDemoTests.m */; };
 		12019C021C3A44A300C7D039 /* ErrorImgViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12019C011C3A44A300C7D039 /* ErrorImgViewDemoUITests.m */; };
-		12919CA71CF85D66008A6B2D /* ErrorImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12919CA31CF85D66008A6B2D /* ErrorImgView.m */; };
-		12919CA81CF85D66008A6B2D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 12919CA61CF85D66008A6B2D /* UIView+Frame.m */; };
+		12919CC11CF85F48008A6B2D /* ErrorImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12919CBD1CF85F48008A6B2D /* ErrorImgView.m */; };
+		12919CC21CF85F48008A6B2D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 12919CC01CF85F48008A6B2D /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		12019BFD1C3A44A300C7D039 /* ErrorImgViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErrorImgViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12019C011C3A44A300C7D039 /* ErrorImgViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErrorImgViewDemoUITests.m; sourceTree = "<group>"; };
 		12019C031C3A44A300C7D039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12919CA21CF85D66008A6B2D /* ErrorImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorImgView.h; sourceTree = "<group>"; };
-		12919CA31CF85D66008A6B2D /* ErrorImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorImgView.m; sourceTree = "<group>"; };
-		12919CA51CF85D66008A6B2D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		12919CA61CF85D66008A6B2D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		12919CBC1CF85F48008A6B2D /* ErrorImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorImgView.h; sourceTree = "<group>"; };
+		12919CBD1CF85F48008A6B2D /* ErrorImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorImgView.m; sourceTree = "<group>"; };
+		12919CBF1CF85F48008A6B2D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		12919CC01CF85F48008A6B2D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 		12019BDB1C3A44A200C7D039 /* ErrorImgViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				12919CA01CF85D66008A6B2D /* LLErrorImgView */,
+				12919CBA1CF85F48008A6B2D /* LLErrorImgView */,
 				12019BDF1C3A44A200C7D039 /* AppDelegate.h */,
 				12019BE01C3A44A200C7D039 /* AppDelegate.m */,
 				12019BE21C3A44A200C7D039 /* ViewController.h */,
@@ -147,29 +147,30 @@
 			path = ErrorImgViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		12919CA01CF85D66008A6B2D /* LLErrorImgView */ = {
+		12919CBA1CF85F48008A6B2D /* LLErrorImgView */ = {
 			isa = PBXGroup;
 			children = (
-				12919CA11CF85D66008A6B2D /* LLErrorImgView */,
-				12919CA41CF85D66008A6B2D /* LLFrame */,
+				12919CBB1CF85F48008A6B2D /* LLErrorImgView */,
+				12919CBE1CF85F48008A6B2D /* LLFrame */,
+			);
+			name = LLErrorImgView;
+			path = ../../LLErrorImgView;
+			sourceTree = "<group>";
+		};
+		12919CBB1CF85F48008A6B2D /* LLErrorImgView */ = {
+			isa = PBXGroup;
+			children = (
+				12919CBC1CF85F48008A6B2D /* ErrorImgView.h */,
+				12919CBD1CF85F48008A6B2D /* ErrorImgView.m */,
 			);
 			path = LLErrorImgView;
 			sourceTree = "<group>";
 		};
-		12919CA11CF85D66008A6B2D /* LLErrorImgView */ = {
+		12919CBE1CF85F48008A6B2D /* LLFrame */ = {
 			isa = PBXGroup;
 			children = (
-				12919CA21CF85D66008A6B2D /* ErrorImgView.h */,
-				12919CA31CF85D66008A6B2D /* ErrorImgView.m */,
-			);
-			path = LLErrorImgView;
-			sourceTree = "<group>";
-		};
-		12919CA41CF85D66008A6B2D /* LLFrame */ = {
-			isa = PBXGroup;
-			children = (
-				12919CA51CF85D66008A6B2D /* UIView+Frame.h */,
-				12919CA61CF85D66008A6B2D /* UIView+Frame.m */,
+				12919CBF1CF85F48008A6B2D /* UIView+Frame.h */,
+				12919CC01CF85F48008A6B2D /* UIView+Frame.m */,
 			);
 			path = LLFrame;
 			sourceTree = "<group>";
@@ -307,8 +308,8 @@
 				12019BE41C3A44A200C7D039 /* ViewController.m in Sources */,
 				12019BE11C3A44A200C7D039 /* AppDelegate.m in Sources */,
 				12019BDE1C3A44A200C7D039 /* main.m in Sources */,
-				12919CA81CF85D66008A6B2D /* UIView+Frame.m in Sources */,
-				12919CA71CF85D66008A6B2D /* ErrorImgView.m in Sources */,
+				12919CC21CF85F48008A6B2D /* UIView+Frame.m in Sources */,
+				12919CC11CF85F48008A6B2D /* ErrorImgView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

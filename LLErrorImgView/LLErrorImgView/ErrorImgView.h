@@ -34,6 +34,17 @@ typedef enum : NSUInteger {
 /**
  *  显示错误信息
  *
+ *  @param title           显示的错误文字
+ *  @param image           显示的错误图片
+ *  @param view            错误信息的父控件
+ *  @param errorLabelColor 错误文字的颜色
+ *  @param errorLabelColor 错误文字的字体
+ */
++ (void)showErrorImageViewWithTitle:(NSString *)title Image:(UIImage *)image onView:(UIView *)view errorLabelColor:(UIColor *)errorLabelColor labelFont:(UIFont *)labelFont;
+
+/**
+ *  显示错误信息
+ *
  *  @param errorImgViewEnum 显示的错误文字对应的枚举,errorImgViewWithdataEmpty表示数据为空;errorImgViewWithNetworkError表示网络链接失败
  *  @param image            显示的错误图片
  *  @param view             错误信息的父控件
